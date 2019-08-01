@@ -34,6 +34,7 @@
         <li><a href="#">Produits et services</a>
           <ul>
             <li><a href="web.php">Hebergement web</a></li>
+	    <li><a href="vpn.php">VPN</a></li>
             <li><a href="sysadmin.php">Service Sysadmin</a></li>
           </ul>
         </li>
