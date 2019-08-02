@@ -6,8 +6,9 @@
 <div id="home-intro">
   <div class="home-intro-container">
     <div class="introcaption">
-      <h2>Des solution d'hébergement pour les <span id="js-rotating">Développeurs, Serveur Minecraft, Enterprises, Boutiques</span></h2>
-      <h4>Livraison Automatique </h4>
+      <h2>Des solutions d'hébergement pour les <span id="js-rotating">Développeurs, Enterprises, Boutiques</span></h2>
+      <h4>Livraison en moins d'une minute!</h4>
+      <h4>support technnique 24/24 7/7</h4>
     </div>
 
     <video autoplay loop muted poster="images/video-poster.jpg" class="hidden-xs">
@@ -57,7 +58,7 @@
 
       <div class="row spacing-25">
 
-		
+
         <div class="col-sm-4">
           <div class="pricing-plan red wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="200ms">
             <div class="pricing-title">Gratuit</div>
@@ -69,10 +70,10 @@
                 <li>Backups journalier</li>
                 <li>DDoS Protection</li>
                 <li>1 Base MySQL</li>
-                <li>10H-20H Lu-Je Support Ticket 6H MAX</li>
+                <li>10H-20H Lu-Je Support Ticket 6H sla</li>
               </ul>
             </div>
-            <div class="text-center"><a class="mtr-btn button-raised ripple" href="javascript:void(0)">Acheter!</a></div>
+            <div class="text-center"><a class="mtr-btn button-raised ripple disabled" href="javascript:void(0)">Acheter!</a></div>
           </div>
         </div>
 
@@ -87,10 +88,10 @@
                 <li>Backups journalier</li>
                 <li>DDoS Protection</li>
                 <li>3 Base MySQL</li>
-                <li>10H-20H Lu-Je Support TicketTicket 4H MAX</li>
+                <li>10H-20H Lu-Je Support TicketTicket 4H sla</li>
               </ul>
             </div>
-            <div class="text-center"><a class="mtr-btn button-raised ripple" href="javascript:void(0)">Acheter!</a></div>
+            <div class="text-center"><a class="mtr-btn button-raised ripple disabled" href="javascript:void(0)">Acheter!</a></div>
           </div>
         </div>
 
@@ -105,10 +106,10 @@
                 <li>Backups journalier</li>
                 <li>DDoS Protection</li>
                 <li>10 Base MySQL</li>
-                <li>24/7/365 Support tel,sms,ticket 1H MAX</li>
+                <li>24/7/365 Support tel,sms,ticket 1H sla</li>
               </ul>
             </div>
-            <div class="text-center"><a class="mtr-btn button-raised ripple" href="javascript:void(0)">Acheter!</a></div>
+            <div class="text-center"><a class="mtr-btn button-raised ripple disabled" href="javascript:void(0)">Acheter!</a></div>
           </div>
         </div>
 
@@ -124,13 +125,13 @@
 
        <!-- TABS -->
        <div class="tabbable tabs-top-horizontal">
-        <ul class="nav nav-tabs">
+      <!--  <ul class="nav nav-tabs">
           <li class="active"><a href="#managed" data-toggle="tab"><i class="fa fa-life-ring royalblue"></i>Manager</a></li>
           <li><a href="#security" data-toggle="tab"><i class="fa fa-shield green"></i>Sécurité</a></li>
           <li><a href="#backups" data-toggle="tab"><i class="fa fa-archive red"></i>Backups</a></li>
           <li><a href="#emails" data-toggle="tab"><i class="fa fa-envelope-square lightblue"></i>Mails</a></li>
           <li><a href="#monitoring" data-toggle="tab"><i class="fa fa-th-list orange"></i>Monitoring</a></li>
-        </ul>
+        </ul>-->
         <div class="tab-content">
 
          <div class="tab-pane fade in active" id="managed">

@@ -39,9 +39,9 @@
       </div>
       <div class="pricing-features">
         <ul>
-          <li>512Ko/s</li>
+          <li>1Mb/s</li>
           <li>10GB Transfert par mois</li>
-	  <li>1 client MAX</li>
+	        <li>1 devices MAX</li>
           <li>10H-20H Lu-Je Support Ticket 6H MAX</li>
         </ul>
       </div>
@@ -59,11 +59,9 @@
       </div>
       <div class="pricing-features">
         <ul>
-         <li>5GB SDD</li>
-         <li>Transfert ILIMITE</li>
-         <li>Backups journalier</li>
-         <li>DDoS Protection</li>
-         <li>3 Base MySQL</li>
+         <li>5Mb/s</li>
+         <li>500Gb</li>
+         <li>3 devices MAX</li>
          <li>10H-20H Lu-Je Support TicketTicket 4H MAX</li>
         </ul>
       </div>
@@ -81,11 +79,9 @@
       </div>
       <div class="pricing-features">
         <ul>
-          <li>10GB SDD</li>
+          <li>illimité</li>
           <li>Transfert ILIMITE</li>
-          <li>Backups journalier</li>
-          <li>DDoS Protection</li>
-          <li>10 Base MySQL</li>
+          <li>10 devices MAX</li>
           <li>24/7/365 Support tel,sms,ticket 1H MAX</li>
         </ul>
       </div>
@@ -103,7 +99,7 @@
 <!-- COMPARISON TABLE -->
 
 <div class="shared-table">
- <button disable class="mtr-btn button-circle button-purple ripple" id="show-comparison-table">+</button>
+
  <p class="text-center">Comparer nos Offres</p>
 
  <div class="row spacing-25">
@@ -119,72 +115,44 @@
       </thead>
       <tbody>
         <tr>
-          <td>Espace Disque</td>
-          <td>1GB</td>
-          <td>5GB</td>
-          <td>10GB</td>
+          <td>débit</td>
+          <td>1mb/s</td>
+          <td>5Mb/s</td>
+          <td>illimité (1Gb/s limite du serveur)</td>
         </tr>
 
         <tr>
-          <td>Nombre de site</td>
+          <td>Nombre de client</td>
           <td>1</td>
           <td>3</td>
           <td>10</td>
         </tr>
 
         <tr>
-          <td>ioncube loader</td>
-          <td><i class="fa fa-times"></i></td>
-          <td><i class="fa fa-times"></i></td>
-          <td><i class="fa fa-times"></i></td>
-        </tr>
-
-        <tr>
-          <td>FTP Ilimité</td>
-          <td><i class="fa fa-times"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-        </tr>
-
-        <tr>
-          <td>Free Website Migration</td>
-          <td><i class="fa fa-times"></i></td>
-          <td><i class="fa fa-times"></i></td>
-          <td><i class="fa fa-times"></i></td>
-        </tr>
-
-        <tr>
-          <td>PHP 5.3</td>
+          <td>Traffic sécurisé</td>
           <td><i class="fa fa-check"></i></td>
           <td><i class="fa fa-check"></i></td>
           <td><i class="fa fa-check"></i></td>
         </tr>
 
         <tr>
-          <td>Crontab</td>
-          <td><i class="fa fa-times"></i></td>
-          <td><i class="fa fa-check"></i>5</td>
-          <td><i class="fa fa-check"></i>10</td>
-        </tr>
-
-        <tr>
-          <td>Backups</td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
+          <td>Support</td>
+          <td>10H-20H Lu-Je Support Ticket 6H SLA</td>
+          <td>10H-20H Lu-Je Support Ticket 3H SLA</td>
+          <td>24H-24H Lu-Di Support Ticket/tel/sms 1H SLA</td>
         </tr>
 
         <tr>
           <td>Bande passente</td>
           <td>10GB</td>
-          <td>Ilimité</td>
+          <td>500GB</td>
           <td>Ilimité</td>
         </tr>
 
 		<tr>
           <td>24x7 Support</td>
           <td><i class="fa fa-times"></i></td>
-          <td><i class="fa fa-check"></i></td>
+          <td><i class="fa fa-times"></i></td>
           <td><i class="fa fa-check"></i></td>
         </tr>
 
@@ -220,62 +188,6 @@
     </table>
   </div>
 </div>
-<!--
-<div class="difference">
-<div class="row spacing-25">
- <div class="col-md-9 col-sm-12 center-block">
-   <h3 class="text-center">THE DATASERV DIFFERENCE</h3>
-   <div class="newplans_box"></div>
-   <p class="text-center">Cooperation social innovation underprivileged opportunity collaborative cities improving quality. Convener, public-private partnerships social movement human-centered design Medecins du Monde advancement honor. </p>
- </div>
-</div>
-</div>
--->
-<div class="row spacing-25">
-  <div class="col-md-9 col-sm-12 center-block">
-
-    <div class="block-grid-sm-3 block-grid-xs-1 fully-managed">
-
-      <div class="block-grid-item wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="100ms">
-        <img src="images/icon7.png" alt="" />
-        <h5>GUARANTEED UPTIME</h5>
-        <p>Indicator communities positive social change respect sustainability campaign. Citizenry social worker institutions.</p>
-      </div>
-
-      <div class="block-grid-item wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="150ms">
-        <img src="images/icon8.png" alt="" />
-        <h5>HUNDREDS OF APPS</h5>
-        <p>Indicator communities positive social change respect sustainability campaign. Citizenry social worker institutions.</p>
-      </div>
-
-      <div class="block-grid-item wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="200ms">
-       <img src="images/icon9.png" alt="" />
-       <h5>CLOUDLINUX</h5>
-       <p>Indicator communities positive social change respect sustainability campaign. Citizenry social worker institutions.</p>
-     </div>
-
-     <div class="block-grid-item wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="250ms">
-      <img src="images/icon10.png" alt="" />
-      <h5>SPAM PROTECTION</h5>
-      <p>Indicator communities positive social change respect sustainability campaign. Citizenry social worker institutions.</p>
-    </div>
-
-    <div class="block-grid-item wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
-      <img src="images/icon11.png" alt="" />
-      <h5>FTP ACCESS</h5>
-      <p>Indicator communities positive social change respect sustainability campaign. Citizenry social worker institutions.</p>
-    </div>
-
-    <div class="block-grid-item wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="350ms">
-     <img src="images/icon12.png" alt="" />
-     <h5>PREMIUM BANDWIDTH</h5>
-     <p>Indicator communities positive social change respect sustainability campaign. Citizenry social worker institutions.</p>
-   </div>
-
-
- </div>
-</div>
-</div>
 
 </div>
 <!-- END OF COMPARISON TABLE -->
@@ -287,75 +199,18 @@
      <div class="videocaption-content  wow fadeIn" data-wow-duration="500ms" data-wow-delay="200ms">
       <h2>By Developers, for Developers</h2>
       <hr/>
-      <p>Indicator communities positive social change respect sustainability campaign.</p>
+      <p></p>
     </div>
 
   </div>
   <video autoplay loop muted poster="images/video-poster.jpg"  class="hidden-xs">
-    <source src="video/video.mp4" type="video/mp4">
-      <source src="video/video.webm" type="video/webm">
-        <source src="video/video.ogv" type="video/ogg">
+
+      <source src="video/fh-vid.webm" type="video/webm">
+
         </video>
       </div>
     </div>
     <!-- END OF VIDEO BACKGROUND -->
-
-    <!-- APPS -->
-    <div class="apps">
-     <div class="row">
-      <div class="col-md-11 col-sm-12 center-block">
-
-        <div class="block-grid-sm-3 block-grid-xs-1 apps-grid">
-
-          <div class="block-grid-item  wow fadeInUp" data-wow-duration="500ms" data-wow-delay="100ms">
-            <h5>Django</h5>
-            <div id="odometer1" class="odometer"></div>
-            <div class="graphicline"><span>HOSTED APPS</span><img src="images/shared-apps-line.png" alt="" /></div>
-            <p>Indicator communities positive social change respect sustainability campaign. Citizenry social worker institutions.</p>
-          </div>
-
-          <div class="block-grid-item  wow fadeInUp" data-wow-duration="500ms" data-wow-delay="150ms">
-            <h5>WordPress</h5>
-            <div id="odometer2" class="odometer"></div>
-            <div class="graphicline"><span>INSTALLATIONS</span><img src="images/shared-apps-line2.png" alt="" /></div>
-            <p>Indicator communities positive social change respect sustainability campaign. Citizenry social worker institutions.</p>
-          </div>
-
-          <div class="block-grid-item  wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms">
-            <h5>Rails</h5>
-            <div id="odometer3" class="odometer"></div>
-            <div class="graphicline"><span>HOSTED APPS</span><img src="images/shared-apps-line3.png" alt="" /></div>
-            <p>Indicator communities positive social change respect sustainability campaign. Citizenry social worker institutions.</p>
-          </div>
-
-          <div class="block-grid-item  wow fadeInUp" data-wow-duration="500ms" data-wow-delay="250ms">
-            <h5>Drupal</h5>
-            <div id="odometer4" class="odometer"></div>
-            <div class="graphicline"><span>INSTALLATIONS</span><img src="images/shared-apps-line4.png" alt="" /></div>
-            <p>Indicator communities positive social change respect sustainability campaign. Citizenry social worker institutions.</p>
-          </div>
-
-          <div class="block-grid-item  wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
-            <h5>Python</h5>
-            <div id="odometer5" class="odometer"></div>
-            <div class="graphicline"><span>HOSTED APPS</span><img src="images/shared-apps-line5.png" alt="" /></div>
-            <p>Indicator communities positive social change respect sustainability campaign. Citizenry social worker institutions.</p>
-          </div>
-
-          <div class="block-grid-item  wow fadeInUp" data-wow-duration="500ms" data-wow-delay="350ms">
-            <h5>Perl</h5>
-            <div id="odometer6" class="odometer"></div>
-            <div class="graphicline"><span>RUNNING SCRIPTS</span><img src="images/shared-apps-line6.png" alt="" /></div>
-            <p>Indicator communities positive social change respect sustainability campaign. Citizenry social worker institutions.</p>
-          </div>
-
-
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- END OF APPS -->
-
 
 <?php include 'include/footer.php'; ?>
 <script>
