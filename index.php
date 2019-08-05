@@ -1,7 +1,7 @@
 <?php include 'include/head.php'; ?>
 <body>
 <?php include 'include/navbar.php'; ?>
-
+<?php if (isset($error_message)) { echo $error_message; } ?>
 <!-- Video -->
 <div id="home-intro">
   <div class="home-intro-container">

@@ -4,12 +4,19 @@
   <div class="row">
     <div class="col-sm-3">
       <ul class="top left">
-        <li><i class="fa fa-phone"></i>0033972341388 (Prix d'un appel local depuis la france)</li>
+        <li><i class="fa fa-phone"></i>0033972212518 (Prix d'un appel local depuis la france)</li>
       </ul>
     </div>
     <div class="col-sm-9">
       <ul class="topright">
-        <li><i class="fa fa-unlock-alt"></i> <a href="#" data-toggle="modal" data-target="#LoginModal">Espace Client</a></li>
+        <?php if (isset($_SESSION['user_id'])) { ?>
+				<li><p class="navbar-text"><strong>Welcome!</strong> You're signed in as <strong><?php echo $_SESSION['user_name']; ?></strong></p></li>
+				<li><a href="logout.php">Log Out</a></li>
+				<?php } else { ?>
+          <li><i class="fa fa-unlock-alt"></i> <a href="#" data-toggle="modal" data-target="#LoginModal">Espace Client</a></li>
+          <li><i class="fa fa-user"></i> <a href="#" data-toggle="modal" data-target="#RegisterModal">Créer un compte</a></li>
+				<?php } ?>
+
       <!--  <li><i class="fa fa-commenting-o"></i> <a href="#">Live Chat</a></li>-->
       </ul>
     </div>

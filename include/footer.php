@@ -71,16 +71,37 @@
 
 <div class="modal fade" id="LoginModal" tabindex="-1" role="dialog" aria-labelledby="LoginModal">
   <div class="modal-dialog" role="document">
-    <form method="post" action="https://whmcs.audemedia.com/dologin.php?systpl=dataservwhmcs" class="material">
+    <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>" class="material">
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
           <h4 class="modal-title" id="myModalLabel"><i class="fa fa-lock"></i>LOGIN TO YOUR ACCOUNT</h4>
         </div>
         <div class="modal-body">
-          <input type="text" name="username" placeholder="E-mail Address">
-          <input type="password" name="password" placeholder="Password">
-          <button type="submit" class="mtr-btn button-fab">LOGIN</button>
+          <input type="text" name="email" placeholder="E-mail Address" required>
+          <input type="password" name="password" placeholder="Password" required>
+          <button type="submit" class="mtr-btn button-fab" value="Login">LOGIN</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+<div class="modal fade" id="RegisterModal" tabindex="-1" role="dialog" aria-labelledby="RegisterModal">
+  <div class="modal-dialog" role="document">
+    <form method="post" action="/manager/login.php" class="material">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel"><i class="fa fa-lock"></i>CREATE YOUR ACCOUNT</h4>
+        </div>
+        <div class="modal-body">
+          <input type="text" name="fname" placeholder="First name" required>
+          <input type="text" name="lname" placeholder="Last name" required>
+          <input type="text" name="mail" placeholder="E-mail Address" required>
+          <input type="tel" name="tel" placeholder="Phone Number" required>
+          <input type="password" name="password" placeholder="Password" required>
+          <input type="password" name="rpassword" placeholder="Repeat password" required>
+          <button type="submit" class="mtr-btn button-fab">Register</button>
         </div>
       </div>
     </form>
