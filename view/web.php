@@ -1,8 +1,7 @@
-<?php include 'include/head.php'; ?>
-<body>
-
- <?php include 'include/navbar.php'; ?>
-
+<?php
+$title = "Com'On Réal - Index";
+ob_start();
+?>
 <!-- SUBHEADER -->
 <div id="subheader" class="shared">
   <div class="subheader-text">
@@ -359,88 +358,4 @@
   <!-- END OF APPS -->
 
 
-<?php include 'include/footer.php'; ?>
-<script>
-  (function($) {
-    "use strict";
-
-    window.odometerOptions = {
-      format: 'd'
-    };
-
-
-    $(window).load(function() {
-
-       // ______________ COMPARISON TABLE SHOW/HIDE
-       $('#show-comparison-table').click(function() {
-        $('.products-table').toggle("slow");
-      });
-
-     // ______________  PRICE SWITCH
-     $(".price-per-period .permonth").click(function() {
-      $(".monthprice").fadeIn(500);
-      $(".yearprice").hide();
-      $(".twoyearprice").hide();
-      $(".price-per-period .permonth").addClass("btn-shared-checked");
-      $(".price-per-period .permonth").removeClass("btn-default");
-      $(".price-per-period .peryear").removeClass("btn-shared-checked");
-      $(".price-per-period .peryear").addClass("btn-default");
-      $(".price-per-period .per2yrs").removeClass("btn-shared-checked");
-      $(".price-per-period .per2yrs").addClass("btn-default");
-    });
-
-     $(".price-per-period .peryear").click(function() {
-      $(".monthprice").hide();
-      $(".yearprice").fadeIn(500);
-      $(".twoyearprice").hide();
-      $(".price-per-period .permonth").removeClass("btn-shared-checked");
-      $(".price-per-period .permonth").addClass("btn-default");
-      $(".price-per-period .peryear").addClass("btn-shared-checked");
-      $(".price-per-period .peryear").removeClass("btn-default");
-      $(".price-per-period .per2yrs").removeClass("btn-shared-checked");
-      $(".price-per-period .per2yrs").addClass("btn-default");
-    });
-
-     $(".price-per-period .per2yrs").click(function() {
-      $(".monthprice").hide();
-      $(".yearprice").hide();
-      $(".twoyearprice").fadeIn(500);
-      $(".price-per-period .permonth").removeClass("btn-shared-checked");
-      $(".price-per-period .permonth").addClass("btn-default");
-      $(".price-per-period .peryear").addClass("btn-default");
-      $(".price-per-period .peryear").removeClass("btn-shared-checked");
-      $(".price-per-period .per2yrs").removeClass("btn-default");
-      $(".price-per-period .per2yrs").addClass("btn-shared-checked");
-    });
-
-   });
-
-jQuery(document).ready(function() {
-
-  $('.odometer').waypoint(function() {
-   setTimeout(function(){
-    $('#odometer1.odometer').html(510);
-  }, 500);
-   setTimeout(function(){
-    $('#odometer2.odometer').html(81825);
-  }, 1000);
-   setTimeout(function(){
-    $('#odometer3.odometer').html(920);
-  }, 1500);
-   setTimeout(function(){
-    $('#odometer4.odometer').html(8000);
-  }, 2000);
-   setTimeout(function(){
-    $('#odometer5.odometer').html(5001);
-  }, 2500);
-   setTimeout(function(){
-    $('#odometer6.odometer').html(392);
-  }, 3000);
- }, { offset: 800, triggerOnce: true });
-});
-
-
-})(jQuery);
-</script>
-</body>
-</html>
+  <? $content = ob_get_clean(); ?>

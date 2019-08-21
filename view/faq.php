@@ -1,9 +1,7 @@
-<?php include 'include/head.php'; ?>
-
-<body>
-
- <?php include 'include/navbar.php'; ?>
-
+<?php
+$title = "Com'On Réal - Index";
+ob_start();
+?>
 <!-- SUBHEADER -->
 <div id="subheader" class="faq">
   <div class="subheader-text">
@@ -343,6 +341,4 @@
 
 <!-- END OF OTHER SUPPORT METHODS -->
 
-<?php include 'include/footer.php'; ?>
-</body>
-</html>
+<? $content = ob_get_clean(); ?>

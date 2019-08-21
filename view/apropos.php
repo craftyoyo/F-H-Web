@@ -1,9 +1,7 @@
-<?php include 'include/head.php'; ?>
-
-<body>
-
- <?php include 'include/navbar.php'; ?>
-
+<?php
+$title = "Com'On Réal - Login";
+ob_start();
+?>
 <!-- SUBHEADER -->
 <div id="subheader" class="about">
   <div class="subheader-text">
@@ -28,7 +26,7 @@
 
   <div class="row spacing-25">
     <div class="col-sm-12 col-md-7">
-      <img src="images/about-us.jpg" alt=""/>
+      <img src="/assets/images/about-us.jpg" alt=""/>
     </div>
     <div class="col-sm-12 col-md-5">
       <p class="topspacing">Courageous economic independence amplify community network harness catalyst beneficiaries, Nelson Mandela promising development developing save lives fight against oppression mobilize. Rural development cornerstone; human experience collaborative cities action working alongside gender equality gender sustainable philanthropy deep engagement. </p>
@@ -41,10 +39,10 @@
 <!-- ABOUT ICONS -->
 <div class="about-icons">
   <div class="row">
-    <div class="col-sm-3"><img src="images/icon17.png" alt=""/><p>CHOOSE</p></div>
-    <div class="col-sm-3"><img src="images/icon18.png" alt=""/><p>SCALE</p></div>
-    <div class="col-sm-3"><img src="images/icon19.png" alt=""/><p>LAUNCH</p></div>
-    <div class="col-sm-3"><img src="images/icon20.png" alt=""/><p>USE</p></div>
+    <div class="col-sm-3"><img src="/assets/images/icon17.png" alt=""/><p>CHOOSE</p></div>
+    <div class="col-sm-3"><img src="/assets/images/icon18.png" alt=""/><p>SCALE</p></div>
+    <div class="col-sm-3"><img src="/assets/images/icon19.png" alt=""/><p>LAUNCH</p></div>
+    <div class="col-sm-3"><img src="/assets/images/icon20.png" alt=""/><p>USE</p></div>
   </div>
 </div>
 <!-- END OF ABOUT ICONS -->
@@ -63,73 +61,73 @@
         <div class="block-grid-sm-4 block-grid-xs-2 team-grid">
 
           <div class="block-grid-item wow zoomIn" data-wow-duration="500ms" data-wow-delay="100ms">
-            <img src="images/team2.jpg" alt="" />
+            <img src="/assets/images/team2.jpg" alt="" />
             <h6>Tommy Skuse</h6>
             <p>Founder/CEO</p>
           </div>
 
           <div class="block-grid-item wow zoomIn" data-wow-duration="500ms" data-wow-delay="100ms">
-            <img src="images/team1.jpg" alt="" />
+            <img src="/assets/images/team1.jpg" alt="" />
             <h6>Bru Stewart</h6>
             <p>Strategy + Marketing</p>
           </div>
 
           <div class="block-grid-item wow zoomIn" data-wow-duration="500ms" data-wow-delay="100ms">
-            <img src="images/team3.jpg" alt="" />
+            <img src="/assets/images/team3.jpg" alt="" />
             <h6>Fox Solly</h6>
             <p>Account Manager</p>
           </div>
 
           <div class="block-grid-item wow zoomIn" data-wow-duration="500ms" data-wow-delay="100ms">
-            <img src="images/team4.jpg" alt="" />
+            <img src="/assets/images/team4.jpg" alt="" />
             <h6>Grant Makienok</h6>
             <p>Technology Director</p>
           </div>
 
           <div class="block-grid-item wow zoomIn" data-wow-duration="500ms" data-wow-delay="100ms">
-            <img src="images/team5.jpg" alt="" />
+            <img src="/assets/images/team5.jpg" alt="" />
             <h6>Tony Kennedy</h6>
             <p>Founder/CEO</p>
           </div>
 
           <div class="block-grid-item wow zoomIn" data-wow-duration="500ms" data-wow-delay="100ms">
-            <img src="images/team2.jpg" alt="" />
+            <img src="/assets/images/team2.jpg" alt="" />
             <h6>Marshall Connolly</h6>
             <p>Strategy + Marketing</p>
           </div>
 
           <div class="block-grid-item wow zoomIn" data-wow-duration="500ms" data-wow-delay="100ms">
-            <img src="images/team1.jpg" alt="" />
+            <img src="/assets/images/team1.jpg" alt="" />
             <h6>John Ralls</h6>
             <p>Account Manager</p>
           </div>
 
           <div class="block-grid-item wow zoomIn" data-wow-duration="500ms" data-wow-delay="100ms">
-            <img src="images/team3.jpg" alt="" />
+            <img src="/assets/images/team3.jpg" alt="" />
             <h6>Mason Doyle</h6>
             <p>Technology Director</p>
           </div>
 
           <div class="block-grid-item wow zoomIn" data-wow-duration="500ms" data-wow-delay="100ms">
-            <img src="images/team4.jpg" alt="" />
+            <img src="/assets/images/team4.jpg" alt="" />
             <h6>Martin Gleeson</h6>
             <p>Technology Director</p>
           </div>
 
           <div class="block-grid-item wow zoomIn" data-wow-duration="500ms" data-wow-delay="100ms">
-            <img src="images/team1.jpg" alt="" />
+            <img src="/assets/images/team1.jpg" alt="" />
             <h6>Davis Donaldson</h6>
             <p>Technology Director</p>
           </div>
 
           <div class="block-grid-item wow zoomIn" data-wow-duration="500ms" data-wow-delay="100ms">
-            <img src="images/team5.jpg" alt="" />
+            <img src="/assets/images/team5.jpg" alt="" />
             <h6>Matt Lansbury</h6>
             <p>Technology Director</p>
           </div>
 
           <div class="block-grid-item wow zoomIn" data-wow-duration="500ms" data-wow-delay="100ms">
-            <img src="images/team2.jpg" alt="" />
+            <img src="/assets/images/team2.jpg" alt="" />
             <h6>Tom Keane</h6>
             <p>Technology Director</p>
           </div>
@@ -259,6 +257,4 @@
 </div>
 </div>
 <!-- END OF TIMELINE -->
-<?php include 'include/footer.php'; ?>
-</body>
-</html>
+<? $content = ob_get_clean(); ?>

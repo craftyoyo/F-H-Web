@@ -1,9 +1,7 @@
-<?php include 'include/head.php'; ?>
-
-<body>
-
- <?php include 'include/navbar.php'; ?>
-
+<?php
+$title = "Com'On Réal - Index";
+ob_start();
+?>
 <!-- SUBHEADER -->
 <div id="subheader" class="contact">
   <div class="subheader-text">
@@ -92,7 +90,4 @@
 </div>
 <!-- End of Map -->
 
-<?php include 'include/footer.php'; ?>
-
-</body>
-</html>
+<? $content = ob_get_clean(); ?>
