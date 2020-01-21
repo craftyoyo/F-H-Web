@@ -4,18 +4,20 @@ require ('controller/controller.php');
 //echo $users['firstname'];
 try
 {
-  switch ($_GET['page'])
+  $page = (!empty($_GET['page']) ? $_GET['page'] : 'home');
+  if(empty($_GET['page'])){$page="home";}
+  switch ($page)
   {
       case 'faq':
         viewFaq();
       break;
 
       case 'cgu':
-      vieCgu();
+        vieCgu();
       break;
 
       case 'contact':
-      viewContact();
+        viewContact();
       break;
 
       case 'web':
@@ -23,28 +25,28 @@ try
       break;
 
       case 'vpn':
-      viewVpn();
+        viewVpn();
       break;
 
       case 'blog':
-      viewBlog();
-    break;
+        viewBlog();
+      break;
 
-    case 'sys':
-    viewSysadmin();
-  break;
+      case 'sys':
+        viewSysadmin();
+      break;
 
-  case 'web':
-  viewWeb();
-break;
+      case 'web':
+        viewWeb();
+      break;
 
       case 'apropos':
         viewApropos();
       break;
 
-      default:
+      case 'home':
         viewIndex();
-        break;
+      break;
   }
 }
 catch(Exception $e)
