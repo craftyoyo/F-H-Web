@@ -37,7 +37,7 @@
 
     <nav id="desktop-menu">
       <ul class="sf-menu" id="navigation">
-        <li><a href="index.php">Accueil</a></li>
+        <li><a href="?p=home">Accueil</a></li>
         <li><a href="#">Produits et services</a>
           <ul>
             <li><a href="web.php">Hebergement web</a></li>

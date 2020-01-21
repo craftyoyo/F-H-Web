@@ -4,8 +4,7 @@ require ('controller/controller.php');
 //echo $users['firstname'];
 try
 {
-  $page = (!empty($_GET['page']) ? $_GET['page'] : 'home');
-  if(empty($_GET['page'])){$page="home";}
+  $page = (!empty($_GET['p']) ? $_GET['p'] : 'home');
   switch ($page)
   {
       case 'faq':
