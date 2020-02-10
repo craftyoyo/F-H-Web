@@ -3,7 +3,7 @@
   <div class="row">
     <div class="col-sm-3">
       <ul class="top left">
-        <li><i class="fa fa-phone"></i>0033972212518 (Prix d'un appel local depuis la france)</li>
+        <li><i class="fa fa-phone"></i>0972212518 (Prix d'un appel local depuis une ligne fixe)</li>
       </ul>
     </div>
     <div class="col-sm-9">
@@ -16,7 +16,7 @@
           <li><i class="fa fa-user"></i> <a href="#" data-toggle="modal" data-target="#RegisterModal">Créer un compte</a></li>
 				<?php } ?>
 
-      <!--  <li><i class="fa fa-commenting-o"></i> <a href="#">Live Chat</a></li>-->
+        <li><i class="fa fa-commenting-o"></i> <a href="#">Live Chat</a></li>
       </ul>
     </div>
   </div>
@@ -28,7 +28,7 @@
  <div class="row">
   <div class="col-sm-3">
     <div class="logo">
-      <a href="/"><img src="images/logo.png" alt="" />
+      <a href="/">Techrepair
       </a>
     </div>
   </div>
@@ -36,22 +36,9 @@
 
     <nav id="desktop-menu">
       <ul class="sf-menu" id="navigation">
-        <li><a class="flink">Produits et services</a>
-          <ul>
-            <li><a href="/web">Hebergement web</a></li>
-	        <li><a href="/vpn">VPN</a></li>
-            <li><a href="/sysadmin">Service Sysadmin</a></li>
-          </ul>
-        </li>
-        <li><a class="flink">Autres</a>
-          <ul>
-            <li><a href="/about">A propos</a></li>
-            <li><a href="/faq">FAQ</a></li>
-          </ul>
-        </li>
-        <!--<li><a href="blog.php">Blog</a></li>
-		    <li><a href="#">Forum</a></li>-->
-        <li><a href="/contact">Contact</a></li>
+            <li><a href="/contact">Contactez-nous</a></li>
+            <!--<li><a href="/faq">FAQ</a></li>-->
+        <li><a href="/about">A propos</a></li>
       </ul>
     </nav>
   </div>

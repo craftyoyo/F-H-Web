@@ -15,9 +15,9 @@ Route::get('/', 'ContentController@home');
 Route::get('/home', 'ContentController@home');
 
 Route::get('/web', 'ContentController@web');
-Route::get('/vpn', 'ContentController@vpn');
+//Route::get('/vpn', 'ContentController@vpn');
 Route::get('/faq', 'ContentController@faq');
 Route::get('/cgu', 'ContentController@cgu');
-Route::get('/about', 'ContentController@about');
+//Route::get('/about', 'ContentController@about');
 Route::get('/contact', 'ContentController@contact');
 Route::get('/sysadmin', 'ContentController@sysadmin');

@@ -5,11 +5,8 @@
 <div class="col-sm-3">
     <h4>Produits et services</h4>
     <ul>
-    <li><a href="#" title="">Hebergement-web</a></li>
-    <li><a href="#" title="">Sysadmin</a></li>
-    <li><a href="#" title="">VPS (Bientôt)</a></li>
-    <li><a href="#" title="">VPN (Bientôt) </a></li>
-    <li><a href="#" title="">Nom-de-domaine (Bientôt)</a></li>
+    <li><a href="#" title="">Hebergement-web (Bientôt)</a></li>
+    <li><a href="/" title="">Support IT</a></li>
     </ul>
 </div>
 
@@ -17,23 +14,21 @@
     <h4>Rejoignez-nous</h4>
 
     <ul>
-    <li><a href="#" title="">Twitter</a></li>
-    <li><a href="#" title="">Facebook</a></li>
-    <li><a href="#" title="">Instagram</a></li>
-    <li><a href="#" title="">Github</a></li>
+    <li><a href="#" title="">Twitter (Bientôt)</a></li>
+    <li><a href="#" title="">Facebook (Bientôt)</a></li>
+    <li><a href="#" title="">Instagram (Bientôt)</a></li>
+    <li><a href="#" title="">Github (Bientôt)</a></li>
     <li><a href="#" title=""></a></li>
     </ul>
 </div>
 
 <div class="col-sm-3">
-    <h4>Fresh-Heberg</h4>
+    <h4>TechRepair</h4>
 
     <ul>
-    <li><a href="#" title="">À propos de nous</a></li>
+    <li><a href="/about" title="">À propos de nous</a></li>
     <li><a href="#" title="">Politique de confidentialité</a></li>
     <li><a href="/cgu" title="">CGU</a></li>
-    <li><a href="#" title="">Termes et conditions</a></li>
-    <li><a href="#" title="">Politique DMCA</a></li>
     </ul>
 </div>
 
@@ -63,7 +58,7 @@
         <li><a href="https://www.instagram.com/fresh_heberg/" title="Instagram"><i class="fa fa-instagram"></i></a></li>
         <li><a href="https://github.com/craftyoyo/F-H-Web/tree/pre-2" title="Github"><i class="fa fa-github-alt"></i></a></li>
     </ul>
-    <p class="text-center">Copyright 2020 © Fresh-Heberg. All rights reserved.</p>
+    <p class="text-center">CompuRepair</p>
 </div>
 </div>
 </div>

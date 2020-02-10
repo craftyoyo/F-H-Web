@@ -8,9 +8,9 @@
 <div id="home-intro">
   <div class="home-intro-container">
     <div class="introcaption">
-      <h2>Des solutions d'hébergement pour les <span id="js-rotating">Développeurs, Enterprises, Boutiques</span></h2>
-      <h4>Livraison en moins d'une minute!</h4>
-      <h4>support technnique 24/24 7/7</h4>
+      <h2>TechRepair vous propose des solutions <span id="js-rotating">de Support, d'Infogérance, de Dépannage, d'HelpDesk</span> Pour les Pros ou les Particuliers</h2>
+      <h4></h4>
+      <h4></h4>
     </div>
 
     <video autoplay loop muted poster="images/video-poster.jpg" class="hidden-xs">
@@ -25,14 +25,14 @@
        <div class="row">
         <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="200ms">
           <div class="circle red"><i class="fa fa-rocket"></i></div>
-          <h4>Serveur SSD</h4>
-          <p>Fresh-heberg a équipé les serveurs de ses datacenters avec des disques SSD professionnels et propose les hébergements Web les plus rapides à ses clients.</p>
+          <h4>Rapidité</h4>
+          <p>Lorsque vous nous confier une taches elle deviens notre priorité numero une!</p>
         </div>
 
         <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
           <div class="circle purple"><i class="fa fa-gratipay"></i></div>
-          <h4>Support client 24/7</h4>
-          <p>Un support réactif et efficace pour répondre à vos attentes.</p>
+          <h4>Confiance</h4>
+          <p>Nous vous garentisson une securite de vos données lorsque vous nous confié </p>
         </div>
 
         <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
@@ -45,79 +45,81 @@
     <!-- End of Features  -->
 
     <!-- PRICE BOXES -->
-    <div class="pricingbox">
-      <div class="row">
-        <div class="col-sm-12 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="200ms">
-          <h3>Nos Offres</h3>
-           <div class="titleborder dark centered">
-<div class="titleborder_left"></div>
-<div class="titleborder_sign"></div>
-<div class="titleborder_right"></div>
-</div>
-          <p>Des offres d'hébergement web exceptionnelle, robuste, et adaptée à vos projets.</p>
-        </div>
+<div class="pricingbox servers">
+  <div class="row">
+    <div class="col-sm-12 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="200ms">
+      <h3>Nos Tarifs</h3>
+      <div class="titleborder dark centered">
+        <div class="titleborder_left"></div>
+        <div class="titleborder_sign"></div>
+        <div class="titleborder_right"></div>
       </div>
-
-      <div class="row spacing-25">
-
-
-        <div class="col-sm-4">
-          <div class="pricing-plan red wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="200ms">
-            <div class="pricing-title">Gratuit</div>
-            <div class="pricing-price"><div class="starting">A partire de</div>0.00€<span>/m</span></div>
-            <div class="pricing-features">
-              <ul>
-                <li>1GB SDD</li>
-                <li>10GB Transfert par mois</li>
-                <li>Backups journalier</li>
-                <li>DDoS Protection</li>
-                <li>1 Base MySQL</li>
-                <li>10H-20H Lu-Je Support Ticket 6H sla</li>
-              </ul>
-            </div>
-            <div class="text-center"><a class="mtr-btn button-raised ripple disabled" href="javascript:void(0)">Acheter!</a></div>
-          </div>
-        </div>
-
-        <div class="col-sm-4">
-          <div class="pricing-plan purple wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
-            <div class="pricing-title">Start</div>
-            <div class="pricing-price"><div class="starting">A partire de</div>3.99€<span>/m</span></div>
-            <div class="pricing-features">
-              <ul>
-                <li>5GB SDD</li>
-                <li>Transfert ILIMITE</li>
-                <li>Backups journalier</li>
-                <li>DDoS Protection</li>
-                <li>3 Base MySQL</li>
-                <li>10H-20H Lu-Je Support TicketTicket 4H sla</li>
-              </ul>
-            </div>
-            <div class="text-center"><a class="mtr-btn button-raised ripple disabled" href="javascript:void(0)">Acheter!</a></div>
-          </div>
-        </div>
-
-        <div class="col-sm-4">
-          <div class="pricing-plan blue wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
-            <div class="pricing-title">Pro</div>
-            <div class="pricing-price"><div class="starting">A partire de</div>5.99€<span>/m</span></div>
-            <div class="pricing-features">
-              <ul>
-                <li>10GB SDD</li>
-                <li>Transfert ILIMITE</li>
-                <li>Backups journalier</li>
-                <li>DDoS Protection</li>
-                <li>10 Base MySQL</li>
-                <li>24/7/365 Support tel,sms,ticket 1H sla</li>
-              </ul>
-            </div>
-            <div class="text-center"><a class="mtr-btn button-raised ripple disabled" href="javascript:void(0)">Acheter!</a></div>
-          </div>
-        </div>
-
-      </div>
+      <p>Voici une liste de nos tarifs bien sûr nous avons listé que les demande les plus fréquentes mais si vous avez une demande spécifique merci de nous contacter.</p>
     </div>
-    <!-- END OF PRICE BOXES -->
+  </div>
+
+  <div class="row spacing-25">
+    
+    
+
+      <table class="server-products-table responsive tablesaw tablesaw-stack">
+        <thead>
+          <tr>
+            <th>Service/Produit</th>
+            <th>Descriptions</th>
+            <th>Commentaire</th>
+            <th>Prix</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Récupération de donneés, 120Go ou moins</td>
+            <td>Récupération de donneés et sauvegarde</td>
+            <td>Tarif unique si moins de 2H si plus de 2H 11,50€/Heure</td>
+            <td>35€</td>
+            
+            </td>
+          </tr>
+          <tr>
+            <td>Récupération de donneés, plus de 120Go</td>
+            <td>Récupération de donneés et sauvegarde</td>
+            <td>Nous vous offrons la 1ere heure!</td>
+            <td>0,50€/Go + 11,50€/H</td>
+            
+            </td>
+          </tr>
+          <tr>
+            <td>Réparation batterie smartphone</td>
+            <td>Remplacement et calibration de votre batterie</td>
+            <td>Nous pouvons remplacer votre batterie de smartphone tout marque</td>
+            <td>40€</td>
+
+            
+            </td>
+          </tr>
+          <tr>
+            <td>Dépannage a distance</td>
+            <td>Dépannage a distance de votre PC, MAC, Linux</td>
+            <td>Nétoiyage de votre PC + verification que votre systeme est securisé. Tarif a l'heure sauf si le probléme est résolus avant l'heure entamé dans ce cas 7€</td>
+            <td>11,50€/H</td>
+
+            
+            </td>
+          </tr>
+          <tr>
+            <td>Gestion serveur</td>
+            <td>Gestion de votre serveur Windows, Linux</td>
+            <td>Nous pouvons gérer votre serveur web, BDD, AD+foret</td>
+            <td>11,50€</td>
+
+            
+            </td>
+          </tr>
+        </tbody>
+      </table>
+	  <p>Pour toute autre demande merci de contacter : devis@ysavary.fr</p>
+    </div>
+</div>
 
 
    <!-- FEATURES -->
@@ -127,13 +129,7 @@
 
        <!-- TABS -->
        <div class="tabbable tabs-top-horizontal">
-      <!--  <ul class="nav nav-tabs">
-          <li class="active"><a href="#managed" data-toggle="tab"><i class="fa fa-life-ring royalblue"></i>Manager</a></li>
-          <li><a href="#security" data-toggle="tab"><i class="fa fa-shield green"></i>Sécurité</a></li>
-          <li><a href="#backups" data-toggle="tab"><i class="fa fa-archive red"></i>Backups</a></li>
-          <li><a href="#emails" data-toggle="tab"><i class="fa fa-envelope-square lightblue"></i>Mails</a></li>
-          <li><a href="#monitoring" data-toggle="tab"><i class="fa fa-th-list orange"></i>Monitoring</a></li>
-        </ul>-->
+      
         <div class="tab-content">
 
          <div class="tab-pane fade in active" id="managed">

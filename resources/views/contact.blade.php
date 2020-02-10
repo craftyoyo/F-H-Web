@@ -6,8 +6,8 @@
 <!-- SUBHEADER -->
 <div id="subheader" class="contact">
   <div class="subheader-text">
-    <h1>We'd love to hear from you</h1>
-    <h2>Our friendly Support Team is available to help you 24 hours a day</h2>
+    <h1>CompuRepair Contact</h1>
+    <h2>Tout nos canneaux de com</h2>
   </div>
 </div>
 <!-- END OF SUBHEADER -->
@@ -18,33 +18,33 @@
  <div class="row">
   <div class="col-sm-3">
     <div class="contactmethod darkgray">
-      <h5>Sales</h5>
-      <p>Times democracy change movements process medicine. Sustainable future.</p>
-      <p><span>Phone: (858) 319-SERV</span><span><a href="">hello@dataserv.io</a></span></p>
+      <h5>Téléphone</h5>
+      <p>Le meilleurs moyens d'entrer en contact avec nous</p>
+      <p><span>Depuis la france: 09 72 21 25 18</span><span>Depuis l'etranger: +33 9 72 21 25 18</span></p>
     </div>
   </div>
 
   <div class="col-sm-3">
     <div class="contactmethod blue">
-      <h5>Chat to us</h5>
-      <p>Women and children eradicate Millennium Development Goals peaceful.</p>
-      <div class="text-center"><a class="mtr-btn button-raised ripple" href="javascript:void(0)">CHAT ONLINE</a></div>
+      <h5>CLiveChat</h5>
+      <p>LiveChat (pas encore dispo)</p>
+      <div class="text-center"><a class="mtr-btn button-raised ripple" href="javascript:void(0)">CHAT (OFFLINE)</a></div>
     </div>
   </div>
 
   <div class="col-sm-3">
     <div class="contactmethod green">
-      <h5>Technical Support</h5>
-      <p>Involvement. Reproductive rights, vulnerable population raise awareness.</p>
-      <p><span><a href="">Submit a ticket</a> via Help Desk</span><span>Visit our <a href="">support page</a></span></p>
+      <h5>Ticket Incident</h5>
+      <p>Rapide et offre un suivi de l'avencement de votre incident</p>
+      <p><span><a href="">Soumettre un ticket</a> via votre </span><span><a href="">espace client</a></span></p>
     </div>
   </div>
 
   <div class="col-sm-3">
     <div class="contactmethod purple">
-      <h5>Headquarters</h5>
-      <p><span>132 University Avenue</span><span>Minneapolis, US, CI 34331</span><span>Atrium, 6th floor</span></p>
-      <p><span><a href="">info@dataserv.io</a></span></p>
+      <h5>Nous trouver</h5>
+      <p><span>n° Rue</span><span>Ville, CP</span><span>+Info</span></p>
+      <p><span><a href="">Maps</a></span></p>
     </div>
   </div>
 </div>
@@ -54,13 +54,14 @@
 <div class="row">
 
   <div class="col-sm-4">
-    <h3>CONTACT DATASERV</h3>
+    <h3>Contact CompuRepair</h3>
     <div class="titleborder pink">
 <div class="titleborder_left"></div>
 <div class="titleborder_sign"></div>
 </div>
-    <h4>Have questions?</h4>
-    <p>Open source; conflict resolution cornerstone cooperation, transform, Bono legitimize research. Change-makers; provide poverty generosity challenges.</p>
+    <h4>Vous avez une question ?</h4>
+    <p>Envoyez-nous un mail ou appelez-nous.</p>
+    <p>Chez CompuRepair nous avons a coeur de rester a votre écoute quelque soit votre demande.</p>
   </div>
 
   <div class="col-sm-8">
@@ -71,7 +72,7 @@
 </div>
     <div id="sendstatus"></div>
     <div id="contactform">
-      <form method="post" action="sendmail.php" class="material">
+      <form method="post" action="#" class="material">
         <p><input type="text" class="form-control" name="name" id="name" placeholder="Name" tabindex="1" /></p>
         <p><input type="text" class="form-control" name="email" id="email" placeholder="Email" tabindex="2" /></p>
         <p><textarea class="form-control" name="comments" id="comments" cols="12" rows="6" placeholder="Message" tabindex="3"></textarea></p>
@@ -85,11 +86,11 @@
 </div>
 
 
-<!-- Map 
+<!-- Map -->
 
 <div id="map_wrapper">
   <div id="map_canvas" class="mapping"></div>
 </div>
 
- End of Map -->
+ <!--End of Map -->
 @endsection
